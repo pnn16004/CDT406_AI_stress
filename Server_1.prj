@@ -1,0 +1,79 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="28616854" file="C:\Users\ot_rl\OneDrive\Dokument\MATLAB\SafeDriver_noncontact\TCPIP\Server_1.prj" location="C:\Users\ot_rl\OneDrive\Dokument\MATLAB\SafeDriver_noncontact\TCPIP" name="Server_1" target="target.mlapps" target-name="Package App">
+    <param.appname>Server_1</param.appname>
+    <param.authnamewatermark>Peter Nguyen</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>Server</param.description>
+    <param.screenshot>C:\Users\ot_rl\AppData\Local\Temp\tp21d614ca_924e_4867_8cb4_71b96c53abe8.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\ot_rl\OneDrive\Dokument\MATLAB\SafeDriver_noncontact\TCPIP</param.output>
+    <param.guid>122de3ca-90a2-4408-ac64-538d1b0a9dad</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Server.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\detectAndTrackFacesOffline.m</file>
+      <file>${PROJECT_ROOT}\extractTimeFreqFeatures.m</file>
+      <file>${PROJECT_ROOT}\featMultiPerson1secondIBI.m</file>
+      <file>${PROJECT_ROOT}\HRibi_fft.m</file>
+      <file>${PROJECT_ROOT}\LinearSVM.mat</file>
+      <file>${PROJECT_ROOT}\MultiObjectTrackerKLT.m</file>
+      <file>${PROJECT_ROOT}\rgbImg2LabImg.m</file>
+      <file>${PROJECT_ROOT}\xCalcHF.m</file>
+      <file>${PROJECT_ROOT}\xCalcLF.m</file>
+      <file>${PROJECT_ROOT}\xCalcLFHFRatio.m</file>
+      <file>${PROJECT_ROOT}\xCalcMeanNN.m</file>
+      <file>${PROJECT_ROOT}\xCalcNN50.m</file>
+      <file>${PROJECT_ROOT}\xCalcpNN50.m</file>
+      <file>${PROJECT_ROOT}\xCalcSTDNN.m</file>
+      <file>${PROJECT_ROOT}\xCalcSTDSD.m</file>
+      <file>${PROJECT_ROOT}\xCalcVLF.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\ot_rl\OneDrive\Dokument\MATLAB\SafeDriver_noncontact" name="TCPIP" optional="false">C:\Users\ot_rl\OneDrive\Dokument\MATLAB\SafeDriver_noncontact\TCPIP</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
